@@ -1,0 +1,25 @@
+timestamp,user_id,event_name,event_params
+2021-08-01 11:00:00,1,login,
+2021-08-01 11:00:10,1,home_screenview,
+2021-08-01 11:01:00,1,restaurant_choose,"{'id':10,'brand':'Pizza Hut'}"
+2021-08-01 11:02:00,1,view_item,"{'item_id':22,'price':10.0,'category':'Pizza','promotion':'No'}"
+2021-08-01 11:04:00,1,add_to_cart,"{'item_id':22,'qnt':1}"
+2021-08-01 11:05:00,1,purchase,"{'order':100,'value':10.0,'delivery_value':2.0}"
+2021-08-01 11:00:00,2,login,
+2021-08-01 11:00:10,2,home_screenview,
+2021-08-01 11:01:00,2,restaurant_choose,"{'id':10,'brand':'Pizza Hut'}"
+2021-08-01 11:00:00,3,login,
+2021-08-01 11:00:10,3,home_screenview,
+2021-08-01 11:01:00,3,restaurant_choose,"{'id':30,'brand':'Esquina dos Lanches'}"
+2021-08-01 11:02:00,3,view_item,"{'item_id':56,'price':20.0,'category':'Sandwich','promotion':'No'}"
+2021-08-01 11:04:00,3,add_to_cart,"{'item_id':56,'qnt':1}"
+2021-08-01 11:10:00,1,login,
+2021-08-01 11:10:10,1,home_screenview,
+2021-08-01 11:01:00,3,restaurant_choose,"{'id':30,'brand':'Esquina dos Lanches'}"
+2021-08-01 11:02:00,3,view_item,"{'item_id':56,'price':20.0,'category':'Sandwich','promotion':'No'}"
+2021-08-01 11:12:00,1,view_item,"{'item_id':27,'price':17.5,'category':'Sandwich','promotion':'Yes'}"
+2021-08-01 11:14:00,1,add_to_cart,"{'item_id':27,'qnt':1}"
+2021-08-01 11:15:00,1,purchase,"{'order':101,'value':17.5,'delivery_value':3.0}"
+2021-08-01 11:40:00,1,login,
+2021-08-01 11:40:10,1,home_screenview,
+2021-08-01 11:40:50,1,order_status,"{'order':100,'brand':'On delivery'}"
